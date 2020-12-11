@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/header';
+import Footer from './components/footer';
 import Maingrid from './components/grid';
 
 
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Header />
       <Maingrid />
+      <Footer />
     </div>
   );
 }

@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Header() {
+export default function Footer() {
   const classes = useStyles();
 
   return (
@@ -25,7 +25,7 @@ export default function Header() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Covid Tracker
+            Made by: Thanwar Das
           </Typography>
         </Toolbar>
       </AppBar>
