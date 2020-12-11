@@ -95,8 +95,6 @@ export default function Globaldata() {
   )
   }
 
-
-
   return (
     <div className={classes.root}>
       <Paper elevation={3}>
