@@ -1,0 +1,28 @@
+.cardsContainer {
+  margin: 50px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 770px) {
+  .cardsContainer {
+    margin: 10% 10%;
+  }
+}
+
+.cardsClass {
+  margin: 5% 2% !important;
+}
+
+#confirmed {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.7);
+}
+
+#Recovered {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.7);
+}
+
+#Deaths {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.7);
+}
